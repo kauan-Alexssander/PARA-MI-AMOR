@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amor, Baya</title>
+    <style>
+        /* Configuración General */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ffe3e3 0%, #fbc2eb 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            color: #4a4a4a;
+        }
+
+        /* Contenedor de la Carta */
+        .carta-container {
+            background-color: rgba(255, 255, 255, 0.92);
+            max-width: 550px;
+            width: 100%;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            position: relative;
+        }
+
+        /* Detalles Románticos */
+        .corazon {
+            color: #ff4d6d;
+            font-size: 50px;
+            margin-bottom: 20px;
+            animation: latido 1.5s infinite;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #ff4d6d;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitulo {
+            font-style: italic;
+            color: #7a7a7a;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        /* Contenido del Mensaje */
+        .contenido {
+            text-align: justify;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .contenido p {
+            margin-bottom: 15px;
+            text-indent: 20px;
+        }
+
+        /* Despedida */
+        .firma {
+            font-family: 'Brush Script MT', cursive, sans-serif;
+            font-size: 2rem;
+            color: #ff4d6d;
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        /* Decoración de fondo */
+        .carta-container::before {
+            content: "♥";
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            color: rgba(255, 77, 109, 0.2);
+            font-size: 24px;
+        }
+
+        .carta-container::after {
+            content: "♥";
+            position: absolute;
+            bottom: 15px;
+            right: 20px;
+            color: rgba(255, 77, 109, 0.2);
+            font-size: 24px;
+        }
+
+        /* Animación del Corazón */
+        @keyframes latido {
+            0% { transform: scale(1); }
+            14% { transform: scale(1.1); }
+            28% { transform: scale(1); }
+            42% { transform: scale(1.15); }
+            70% { transform: scale(1); }
+        }
+
+        /* Adaptabilidad para pantallas pequeñas */
+        @media (max-width: 480px) {
+            .carta-container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .contenido {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carta-container">
+        <div class="corazon">♥</div>
+        
+        <h1>Para mi amor, Baya</h1>
+        <div class="subtitulo">Eres mi rincón favorito en el mundo</div>
+        
+        <div class="contenido">
+            <p>para mi amorzinho baya</p>
+            <p>ecribo eso desde el fondo de mi corazon porque tengo que mostrarte de alguna forma lo mucho que yo te amo mi amor, entonces hice una pequena cosa para ti</p>
+            <p>todo en ti es especial para mi, no sabes lo mucho que me haces feliz de una manera que no tienes ni idea, eres todo lo que necesito en esta tierra,muchas gracias por todo que hiciste y que haces por mi mi amor agradezco a Dios por todo que que me dio como tu</p>
+            <p>con todo mi amor te escribo, se que es poco xuxuzinho pero hice eso con mucho carino bayazinha</p>
+        
+        <div class="firma">yo te amo mucho,con amor kauan</div>
+        <div class="firma" style="font-size: 1.5rem; margin-top: 5px;">eu te amo ♥</div>
+    </div>
+
+</body>
+</html>
